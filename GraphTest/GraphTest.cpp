@@ -31,20 +31,20 @@ bool LoadVertice(string filename, Vector<string>& citynames)
 
 bool LoadEdge(string filename, Vector<int>& srcs,Vector<int>& dsts,Vector<float>& weights)
 {
-	ifstream input;
+	ifstream istream;
 	srcs.Clear();
 	dsts.Clear();
 	weights.Clear();
-	input.open(filename);
+	istream.open(filename);
 	int src, dst;
 	float weight;
-	while (input>>src>>dst>>weight)
+	while (istream>>src>>dst>>weight)
 	{
 		srcs.PushBack(src);
 		dsts.PushBack(dst);
 		weights.PushBack(weight);
 	}
-	input.close();
+	istream.close();
 	return true;
 }
 
