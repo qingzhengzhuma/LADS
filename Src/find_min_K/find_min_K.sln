@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "find_min_K", "find_min_K\find_min_K.vcxproj", "{8E35D810-2113-4653-85CA-6B68B6B975FC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8E35D810-2113-4653-85CA-6B68B6B975FC}.Debug|Win32.ActiveCfg = Debug|Win32
+		{8E35D810-2113-4653-85CA-6B68B6B975FC}.Debug|Win32.Build.0 = Debug|Win32
+		{8E35D810-2113-4653-85CA-6B68B6B975FC}.Release|Win32.ActiveCfg = Release|Win32
+		{8E35D810-2113-4653-85CA-6B68B6B975FC}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
